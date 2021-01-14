@@ -59,7 +59,8 @@ header {
   display: block;
   position: absolute;
   top: 100px;
-  left: 50%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 
 .dropdown ul {
@@ -68,8 +69,8 @@ header {
 
 .dropdown ul li {
   display: block;
+  padding: 10px 10px 10px 0;
 }
-
 
 .hide {
   display: none;
