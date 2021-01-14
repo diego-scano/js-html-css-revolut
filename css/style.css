@@ -57,6 +57,7 @@ header {
 
 .dropdown {
   display: block;
+  background-color: white;
   position: absolute;
   top: 100px;
   border: 1px solid lightgrey;
