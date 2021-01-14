@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+  width: 19px;
+  height: 23px;
+  vertical-align: middle;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+}
+
+.navbar {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.left-nav li {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.right-nav li {
+  margin-left: 40px;
+}
+
+#sign-in {
+  background-color: lightgrey;
+}
+
+#get-the-app {
+  background-color: black;
+  color: white;
+}
+
+#sign-in, #get-the-app {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.grey {
+  color: grey;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.dropdown ul {
+  display: inline-block;
+}
+
+.dropdown ul li {
+  display: block;
+}
+
+
+.hide {
+  display: none;
+}
